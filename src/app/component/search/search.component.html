@@ -1,0 +1,343 @@
+<!-- <app-loader></app-loader> -->
+<header class="site-header">
+    <div class="container-wide">
+        <h1 class="logo">
+            <a href="" itemprop="url">
+                <span class="sr-only" itemprop="name">GitHub Universe</span>
+                <!-- <img class="github-logo" src="../assets/img/universe/GitHub-Mark-Light-32px.png" alt="GitHub logo" /> -->
+                <i class="fa fa-github fa-x5 github-logo"></i>
+            </a>
+        </h1>
+    </div>
+</header>
+<main id="content" class="main page-content fade-in" aria-label="Content">
+    <article class="page gradient bg-universe" id="register" data-detect-viewport="">
+        <div class="page-body container">
+            <header class="page-header container no-border">
+              <!-- <img class="margin-auto" src="../assets/img/universe/GitHub-Mark-120px-plus.png" alt="" srcset=""> -->
+                <i class="fa fa-github fa-5x"></i>
+                <h3>Search Users, Repos, Code & Issues on Github</h3>
+                <form class="search-form">
+                  <input type="text" name="username" class="form-control" title="Search github profile" placeholder="Search Github Profile" [(ngModel)]="username" (keyup)="searchUser()">
+                </form>
+            </header>
+            <figure class="shooting-star">
+                    <img src="assets/img/universe/shapes/shooting-star.svg" alt="shooting star" />
+            </figure>
+            <figure class="shooting-star-right">
+                <img src="assets/img/universe/shapes/shooting-star.svg" alt="shooting star" />
+            </figure>
+            <section class="tab-section">
+                <div class="board">
+                    <!-- <h2>Welcome to IGHALO!<sup>™</sup></h2>-->
+                    <div class="board-inner">
+                        <ul class="nav nav-tabs" id="myTab">
+                            <div class="liner"></div>
+                                <li class="active">
+                                    <a href="#home" data-toggle="tab" title="repositories">
+                                        <span class="round-tabs one">
+                                            <i class="material-icons">folder</i>
+                                        </span>
+                                        <sup>
+                                            <span class="badge">
+                                                12
+                                            </span>
+                                        </sup>
+                                    </a>
+                                </li>
+
+                            <li>
+                                <a href="#profile" data-toggle="tab" title="users">
+                                    <span class="round-tabs two">
+                                        <i class="material-icons">account_circle</i>
+                                    </span>
+                                    <sup>
+                                        <span class="badge">
+                                            12
+                                        </span>
+                                    </sup>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#messages" data-toggle="tab" title="codes">
+                                    <span class="round-tabs three">
+                                        <i class="material-icons">code</i>
+                                    </span>
+                                    <sup>
+                                        <span class="badge">
+                                            12
+                                        </span>
+                                    </sup>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#settings" data-toggle="tab" title="issues">
+                                    <span class="round-tabs four">
+                                        <i class="material-icons">bug_report</i>
+                                    </span>
+                                    <sup>
+                                        <span class="badge">
+                                            12
+                                        </span>
+                                    </sup>
+                                </a>
+                            </li>
+                            <!-- <li>
+                                <a href="#doner" data-toggle="tab" title="completed">
+                                    <span class="round-tabs five">
+                                        <i class="glyphicon glyphicon-ok"></i>
+                                    </span>
+                                </a>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="home">
+                            <div class="table table--full text-white in-view" data-animate-in="up">
+                                <div class="table__col table__col--full text-group">
+                                    <div class="media-object">
+                                        <figure>
+                                            <img src="assets/img/universe/sponsors/waffle-full.png" alt="Waffle.io">
+                                        </figure>
+                                        <div class="text-group">
+                                            <div>
+                                                <p class="h5 text-md">Tuesday October 10th, 7pm - 10pm</p>
+                                                <h3 class="h3">Universe 2017 Pre-Party presented by Waffle.io</h3>
+                                            </div>
+                                            <p>Join the Waffle.io team for beers, snacks, swag and as much foosball as you can play to&nbsp;celebrate&nbsp;Universe.</p>
+                                            <p class="text-bold">Location: <a href="https://goo.gl/maps/dJaQmjRsZqR2" target="_blank">BuzzWorks</a></p>
+                                            <a class="icon-link" href="https://waffleio.typeform.com/to/lgo981" target="_blank">
+                                                <span class="h6">Learn More</span>
+                                                <span><svg width="20" height="20"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-arrow-right"></use></svg></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--  -->
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile">
+                            <div class="page-body container-wide">
+                                <ul class="speaker-list">
+                                    <li class="speaker-preview" data-click-target="frances-haugen" data-click-bodyClass="modal-is-active" data-animate-in="up">
+                                        <figure class="speaker-preview__image bg-image" style="background: url('') center / cover no-repeat;">
+                                            <img src="assets/img/universe/speakers/frances-haugen.jpg" alt="headshot of Frances Haugen" />
+                                        </figure>
+                                        <div class="speaker-preview__info">
+                                            <div>
+                                                <h3 class="h3 speaker-name">Frances Haugen</h3>
+                                                <p class="speaker-position">Data Product Manager @ Pinterest</p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="speaker-preview in-view" data-click-target="machiste-quintana" data-click-bodyclass="modal-is-active" data-animate-in="up">
+                                        <figure class="speaker-preview__image bg-image" style="background: url('') center / cover no-repeat;">
+                                            <img src="assets/img/universe/speakers/machiste-quintana.jpg" alt="headshot of Machisté Quintana">
+                                        </figure>
+                                        <div class="speaker-preview__info">
+                                            <div>
+                                                <h3 class="h3 speaker-name">Machisté Quintana</h3>
+                                                <p class="speaker-position">Senior Software Engineer @ Slack</p>
+
+
+                                                <div class="is-hidden">
+                                                    <div class="speaker">
+                                                        <div class="speaker-profile">
+                                                            <figure class="speaker-image bg-image">
+                                                                <img src="#" alt="headshot of Machisté Quintana">
+                                                                <span class="is-hidden img-path">/assets/img/universe/speakers/machiste-quintana.jpg</span>
+                                                            </figure>
+                                                            <div class="speaker-info">
+                                                                <h2 class="h2 speaker-name">Machisté Quintana</h2>
+                                                                <p class="h6 speaker-position">Senior Software Engineer @ Slack</p>
+
+                                                                <ul class="social-links">
+
+
+
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="speaker-modal-content">
+                                                            <div>
+                                                                <div class="text-group">
+                                                                    <div>
+                                                                        <h5 class="h5">About</h5>
+                                                                        <p class="p-sm speaker-bio">Machisté is a Software Engineer at Slack, where he works on the cross-platform Slack desktop app, combining web and native in unholy matrimony. Prior to Slack, he worked at Yale University on something mostly unrelated. He has also helped maintain Atom, the hackable text editor, and sometimes Electron, the framework for building cross-platform apps with web technologies. When not computering, he plays guitar, writes songs, and gets down at karaoke.</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="text-group">
+                                                                    <h5 class="h5">The Talk</h5>
+                                                                    <div class="talk-info">
+                                                                        <p class="p speaker-talk">Interop's labyrinth: sharing code between web &amp; Electron apps</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="speaker-preview in-view" data-click-target="ashley-ellis-pierce" data-click-bodyclass="modal-is-active" data-animate-in="up">
+                                        <figure class="speaker-preview__image bg-image" style="background: url('') center / cover no-repeat;">
+                                            <img src="assets/img/universe/speakers/ashley-ellis-pierce.jpg" alt="headshot of Ashley Ellis Pierce">
+                                        </figure>
+                                        <div class="speaker-preview__info">
+                                            <div>
+                                                <h3 class="h3 speaker-name">Ashley Ellis Pierce</h3>
+                                                <p class="speaker-position">Application Engineer @ GitHub</p>
+
+
+                                                <div class="is-hidden">
+                                                    <div class="speaker">
+                                                        <div class="speaker-profile">
+                                                            <figure class="speaker-image bg-image">
+                                                                <img src="#" alt="headshot of Ashley Ellis Pierce">
+                                                                <span class="is-hidden img-path">/assets/img/universe/speakers/ashley-ellis-pierce.jpg</span>
+                                                            </figure>
+                                                            <div class="speaker-info">
+                                                                <h2 class="h2 speaker-name">Ashley Ellis Pierce</h2>
+                                                                <p class="h6 speaker-position">Application Engineer @ GitHub</p>
+
+                                                                <ul class="social-links">
+
+
+
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="speaker-modal-content">
+                                                            <div>
+                                                                <div class="text-group">
+                                                                    <div>
+                                                                        <h5 class="h5">About</h5>
+                                                                        <p class="p-sm speaker-bio">Ashley lives in Durham, NC and is an Application Engineer at GitHub. She enjoys helping others learn to code and is the lead organizer for RailsBridge Triangle and a mentor for Code the Dream, an organization that helps minority and immigrant youth break into tech. Her favorite programming languages are Ruby and Elixir. In her free time she enjoys cycling, amateur furniture building, and photography.</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="text-group">
+                                                                    <h5 class="h5">The Talk</h5>
+                                                                    <div class="talk-info">
+                                                                        <p class="p speaker-talk">GitHub driven refactoring</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="speaker-preview" data-click-target="kashyap-parikh" data-click-bodyclass="modal-is-active" data-animate-in="up">
+                                        <figure class="speaker-preview__image bg-image" style="background: url('') center / cover no-repeat;">
+                                            <img src="assets/img/universe/speakers/kashyap-parikh.jpg" alt="headshot of Kashyap Parikh">
+                                        </figure>
+                                        <div class="speaker-preview__info">
+                                            <div>
+                                                <h3 class="h3 speaker-name">Kashyap Parikh</h3>
+                                                <p class="speaker-position">Director of Engineering @ Credit Karma</p>
+
+
+                                                <div class="is-hidden">
+                                                    <div class="speaker">
+                                                        <div class="speaker-profile">
+                                                            <figure class="speaker-image bg-image">
+                                                                <img src="#" alt="headshot of Kashyap Parikh">
+                                                                <span class="is-hidden img-path">/assets/img/universe/speakers/kashyap-parikh.jpg</span>
+                                                            </figure>
+                                                            <div class="speaker-info">
+                                                                <h2 class="h2 speaker-name">Kashyap Parikh</h2>
+                                                                <p class="h6 speaker-position">Director of Engineering @ Credit Karma</p>
+
+                                                                <ul class="social-links">
+
+
+
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="speaker-modal-content">
+                                                            <div>
+                                                                <div class="text-group">
+                                                                    <div>
+                                                                        <h5 class="h5">About</h5>
+                                                                        <p class="p-sm speaker-bio">As a director of engineering at Credit Karma, Kashyap’s work helps more than 60 million Americans make financial progress. His team builds platform services that enable hundreds of developers to rapidly build, test and release their products into production. Kashyap recently led the migration of Credit Karma’s source code to GitHub. Before Credit Karma, he managed delivery of Spring App Suite based on popular open source projects on GitHub: RabbitMQ, Redis and Spring IO. He holds a master’s in Computer Science and Environmental Engineering from University of Massachusetts Lowell.</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="text-group">
+                                                                    <h5 class="h5">The Talk</h5>
+                                                                    <div class="talk-info">
+                                                                        <p class="p speaker-talk">How GitHub Combined With CI Empowers Rapid Product Delivery</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="messages">
+                            <div class="container section">
+                                <div class="table table--sm text-white in-view" data-animate-in="down">
+                                    <div class="table__col table__col--full text-group">
+                                        <div class="user-content">
+
+                                            <h3 class="h3">Public Transportation</h3>
+                                            <p>The San Francisco MTA T-Line runs directly through the Dogpatch neighborhood. Take the T-Line towards Sunnydale + Bayshore to the 3rd St. &amp; 20th St. stop. Pier 70 is a 10 minute walk with plenty of signs to show the way. If you’re taking BART, you can switch to the T-Line at Embarcadero Station.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="settings">
+                            <div class="table table--sm text-white in-view" data-animate-in="down">
+                                <div class="table__col table__col--full text-group">
+                                    <div class="user-content">
+
+                                        <h3 class="h3">Public Transportation</h3>
+                                        <p>The San Francisco MTA T-Line runs directly through the Dogpatch neighborhood. Take the T-Line towards Sunnydale + Bayshore to the 3rd St. &amp; 20th St. stop. Pier 70 is a 10 minute walk with plenty of signs to show the way. If you’re taking BART, you can switch to the T-Line at Embarcadero Station.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </article>
+</main>
+<footer class="site-footer bg-universe" data-detect-viewport="">
+    <div class="site-footer-legal">
+        <div class="container-wide">
+            <div>
+                <small>Made With <i class="fa fa-heart"></i> by  <a class="text-gradient" href="http://github.com/joeeasy" target="_blank">Jehonadab Okpukoro</a> Inspired By <a class="text-gradient" href="http://githubuniverse.com" target="_blank">Github universe</a></small>
+            </div>
+        </div>
+    </div>
+    <figure class="shooting-star">
+        <img src="assets/img/universe/shapes/shooting-star.svg" alt="shooting star" />
+    </figure>
+    <figure class="shooting-star-right">
+        <img src="assets/img/universe/shapes/shooting-star.svg" alt="shooting star" />
+    </figure>
+    <img data-detect-viewport="" class="site-footer-planet" src="assets/img/universe/shapes/planet-gradient.svg" alt="Saturn icon" />
+</footer>
